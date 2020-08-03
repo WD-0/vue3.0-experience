@@ -20,7 +20,7 @@ export default {
       state.num[0]++
     }
     watch(
-      () => count.value,
+      count,
       (val, oldVal) => {
         console.log(`count：${val} ${oldVal}`)
       }
